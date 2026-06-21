@@ -9,6 +9,16 @@ Do not add authentication logic, a database layer, or any features not described
 in the spec.
 
 ## Behavioral Instructions
-<!-- Write a short set of instructions guiding how your AI assistant should behave 
-when helping with this project — for example, which classes to stay within, 
-what complexity to avoid, or any preferences for how suggestions are structured. -->
+When generating UML diagrams for ByteBites:
+
+- Use only classes explicitly described in the specification.
+- Do not add authentication features.
+- Do not add database-related classes.
+- Do not add payment processing.
+- Do not add inventory management.
+- Keep designs simple and focused on the feature request.
+- Only include attributes mentioned in the specification.
+- Use clear relationships between classes.
+- Prefer readability over complexity.
+
+
